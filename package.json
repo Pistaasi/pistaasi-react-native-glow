@@ -1,0 +1,18 @@
+{
+    "name": "@pistaasi/react-native-glow",
+    "version": "1.0.0",
+    "repository": "Pistaasi/pistaasi-react-native-glow",
+    "description": "Simple glow effect using react-spring",
+    "main": "glow.js",
+    "keywords": [
+        "glow",
+        "npm",
+        "react-native",
+        "react-spring"
+    ],
+    "dependencies": {
+        "react": "^17.0.2",
+        "react-native": "^0.68.1",
+        "react-spring": "^9.4.4"
+    }
+}
