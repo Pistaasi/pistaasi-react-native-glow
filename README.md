@@ -3,6 +3,10 @@ Quick npm package for a school project
 
 Make sure to install react-spring first! 
 
+Install: 
+
+npm i @pistaasi/react-native-glow
+
 Usage: 
 
 ```javascript
