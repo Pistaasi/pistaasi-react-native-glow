@@ -1,6 +1,8 @@
 # pistaasi-react-native-glow
 Quick npm package for a school project
 
+Simple glow effect for icons and text using react-spring
+
 Make sure to install react-spring first! 
 
 Install: 
