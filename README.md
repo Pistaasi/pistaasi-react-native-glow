@@ -22,6 +22,7 @@ export default function GlowingIcon() {
 
     let glowSettings = glow(1, 20, "grey", "grey", false); 
     //Icon with grey glow
+    //You will need to set color on the icon, as this is only glow color
     let glowSettingsChange = glow(1, 20, "grey", "red", true);
     //Icon that changes color with glow
 
@@ -30,7 +31,7 @@ export default function GlowingIcon() {
     return (
       <View>
               
-            <AnimatedIcon name="heart" size={30} style={glowSettings}/>
+            <AnimatedIcon name="heart" size={30} color="grey" style={glowSettings}/>
 
              <AnimatedIcon name="heart" size={30} style={glowSettingsChange}/>
            
