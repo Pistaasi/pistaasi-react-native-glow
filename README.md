@@ -20,13 +20,19 @@ const AnimatedIcon = animated(Ionicons); // check react-spring documentation
 
 export default function GlowingIcon() {
 
-    let glowSettings = glow(1, 20, "grey", "red"); 
-    // starting size, end size, startingColor, endColor
+    let glowSettings = glow(1, 20, "grey", "grey", false); 
+    //Icon with grey glow
+    let glowSettingsChange = glow(1, 20, "grey", "red", true);
+    //Icon that changes color with glow
+
+    // starting size, end size, startingColor, endColor, changeIconColorWithGlow
 
     return (
-      <View style={styles.container}>
+      <View>
               
-            <AnimatedIcon name="heart" size={30} color="grey" style={glowSettings}/>
+            <AnimatedIcon name="heart" size={30} style={glowSettings}/>
+
+             <AnimatedIcon name="heart" size={30} style={glowSettingsChange}/>
            
       </View>
     );
